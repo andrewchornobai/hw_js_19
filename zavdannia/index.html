@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        #f1{
+            width: 400px;
+            height: 500px;
+            margin: 20px auto 0;
+            display: flex;
+            flex-direction: column;
+            text-align: center;
+        }
+
+        .elements{
+            margin: 10px 0;
+        }
+    </style>
+</head>
+
+<body>
+
+    <form id="f1">
+        <h2>Please sing up</h2>
+        <input class="elements" id="name_id" type="text" placeholder="First name">
+        <input class="elements" id="name2_id" type="text" placeholder="Last name">
+        <input class="elements" id="email_id" type="text" placeholder="Email adress">
+        <input class="elements" id="password_id" type="password" placeholder="Password">
+        <label for="checkbox_id">
+            <input class="elements" id="checkbox_id" type="checkbox" > I agree with Privacy Policy
+        </label>
+        <button id="some_btn" disabled>Sing up</button>
+    </form>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
